@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
+  "bin": {
+    "changelog-generator": "./lib/index.js"
+  },
   "scripts": {
     "build": "rm -rf lib && tsc",
     "test": "ts-node src/index.ts --outDir=testOut"

@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { promises as fs } from 'fs';
 import moment from 'moment';
 import { execShellCommand } from './utils';
