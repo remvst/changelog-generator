@@ -1,13 +1,15 @@
-# mobile-controls
+# changelog-generator
 
-A small PIXI.js-based library allowing you to add virtual buttons and joysticks to a touch screen.
+Generates TypeScript and JSON files based on the git history.
 
 ## Installation
 
 ```sh
-npm install --save @remvst/mobile-controls
+npm install --save @remvst/changelog-generator
 ```
 
 ## Usage
 
-See `demo/src/index.ts` for usage details.
+```sh
+npx @remvst/changelog-generator --packageJson='../package.json' --outDir='.'
+```
